@@ -1,6 +1,7 @@
 'use strict';
 
 {
+    //キーを押した時に以下を実行
     window.addEventListener('keydown', function(e) {
         const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
         const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
